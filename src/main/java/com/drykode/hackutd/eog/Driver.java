@@ -27,6 +27,5 @@ public class Driver {
 
         List<Point> result = new MaxProfitMinFlowRateAlgo().solve(points, targetSum);
         result.forEach(System.out::println);
-
     }
 }
